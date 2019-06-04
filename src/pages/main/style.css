@@ -1,0 +1,123 @@
+.list {
+    max-width: 700px;
+    margin: 50px auto 0;;
+    padding: 0 20px;
+}
+
+.list span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.list p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.list .link-add {
+    float: right;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #6699ff;
+    background: none;
+    margin-top: -40px;
+    padding: 15px;
+    color: #6699ff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list article a {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #6699ff;
+    background: none;
+    margin-top: 20px;
+    color: #6699ff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.list article button {
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #ff5050;
+    background: none;
+    margin-top: 20px;
+    color: #ff5050;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.list article a:hover {
+    background: #6699ff;
+    color: #fff;
+}
+
+.list article button:hover {
+    background: #ff5050;
+    color: #fff;
+}
+
+.list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #6699ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.list .actions button[disabled]:hover {
+    opacity: 0.5;
+}
+
+.list .actions button:hover {
+    opacity: 0.7;
+}
